@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<canvas id="x" height="400" width="400"></canvas>
+<div id="actions" class="actions">
+    <svg class="icon action" id="pencil">
+        <use xlink:href="#icon-pencil"></use>
+    </svg>
+    <svg class="icon" id="pen">
+        <use xlink:href="#icon-pen"></use>
+    </svg>
+    <svg class="icon" id="eraser">
+        <use xlink:href="#icon-eraser"></use>
+    </svg>
+    <svg class="icon" id="trashbin">
+        <use xlink:href="#icon-trashbin"></use>
+    </svg>
+    <svg class="icon" id="download">
+        <use xlink:href="#icon-download"></use>
+    </svg>
+</div>
+<ol class="colors">
+    <li id="black" class="black action">
+    <li id="red" class="red"></li>
+    <li id="green" class="green"></li>
+    <li id="blue" class="blue"></li>
+</ol>
+
+
+<script src="//at.alicdn.com/t/font_570166_rlq1suz23ifz85mi.js"></script>
+<!--***************-->
+<script src="js/canvesWidthHeight.js"></script>
+<script src="js/drawLineOrCircle.js"></script>
+<script src="js/brushColor.js"></script>
+<script src="js/toolSelection.js"></script>
+<script src="js/listenUser.js"></script>
+<script src="js/init-canves.js"></script>
+
+</body>
+</html>
